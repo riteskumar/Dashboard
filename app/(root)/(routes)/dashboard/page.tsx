@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useState } from "react";
-import { supabase } from "../../lib/supabaseClient";
+
 import { useRouter } from "next/compat/router";
 import { Check, CreditCard, DollarSign, PersonStanding,IndianRupee} from "lucide-react"
 import { DashboardCard } from "./_components/dashboard-card"
